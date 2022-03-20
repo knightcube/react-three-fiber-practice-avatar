@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
 
-const Model = (props) => {
+const MyAvatar = (props) => {
   const group = useRef();
   const { nodes, materials, animations } = useGLTF("/animated_avatar.glb");
   const { actions } = useAnimations(animations, group);
@@ -98,4 +98,4 @@ const Model = (props) => {
 
 useGLTF.preload("/animated_avatar.glb");
 
-export default Model
+export default MyAvatar;

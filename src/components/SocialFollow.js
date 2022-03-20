@@ -7,7 +7,7 @@ import {
   faMedium
 } from "@fortawesome/free-brands-svg-icons";
 
-export default function SocialFollow() {
+const SocialFollow = () => {
   return (
     <div className="social-container">
       <a href="https://www.youtube.com/knightcubexr" className="social">
@@ -28,3 +28,5 @@ export default function SocialFollow() {
     </div>
   );
 }
+
+export default SocialFollow;

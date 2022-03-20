@@ -1,11 +1,11 @@
 import "./styles.css";
 import { Canvas } from "@react-three/fiber";
-import MyAvatar from "./MyAvatar";
-import AnimatedBlob from "./AnimatedBlob";
+import MyAvatar from "./components/MyAvatar";
+import AnimatedBlob from "./components/AnimatedBlob";
 
 import React from "react";
 import { Suspense } from "react";
-import SocialFollow from "./SocialFollow";
+import SocialFollow from "./components/SocialFollow";
 
 const App = () => {
   return (
