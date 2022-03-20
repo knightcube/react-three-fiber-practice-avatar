@@ -1,12 +1,9 @@
 import React from "react";
 import {
   Sphere,
-  Box,
   MeshDistortMaterial,
-  Text,
   OrbitControls
 } from "@react-three/drei";
-import { Mesh } from "three";
 
 const AnimatedBlob = () => {
   return (

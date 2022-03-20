@@ -1,6 +1,7 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  background: #060818;
 }
 
 * {
@@ -8,23 +9,21 @@
   padding: 0;
 }
 
-.extra-info {
-  position: absolute;
-  bottom: 40%;
-  right: 15%;
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
-  z-index: 1;
+
+canvas {
+  display: block;
+  height: 100vh;
 }
 
-p {
-  background-color: aqua;
-  text-align: start;
+h1 {
+  font-size: 4rem;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
-.social-container {
+a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 a.social {
@@ -37,3 +36,15 @@ a.social {
 a.social:hover {
   transform: translateY(-2px);
 }
+
+.extra-info {
+  position: absolute;
+  bottom: 40%;
+  right: 15%;
+  display: flex;
+  flex-direction: column;
+  /* background: #060818; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  z-index: 1;
+} 
